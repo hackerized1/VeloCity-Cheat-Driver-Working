@@ -1,0 +1,15 @@
+﻿  Building 'velocity-driver' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  main.cpp
+C:\Repositories\velocity-driver\nt.h(60,4): warning C4201: nonstandard extension used: nameless struct/union
+C:\Repositories\velocity-driver\utils.h(125,24): warning C4267: 'argument': conversion from 'size_t' to 'ULONG', possible loss of data
+C:\Repositories\velocity-driver\communication.h(192,1): warning C4456: declaration of 'status' hides previous local declaration
+C:\Repositories\velocity-driver\communication.h(186,12): message : see declaration of 'status'
+C:\Repositories\velocity-driver\communication.h(205,23): warning C4018: '<': signed/unsigned mismatch
+C:\Repositories\velocity-driver\main.cpp(14,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Repositories\velocity-driver\main.cpp(53,15): warning C4244: '=': conversion from 'SIZE_T' to 'DWORD', possible loss of data
+C:\Repositories\velocity-driver\main.cpp(46,107): warning C4100: 'mmu_filled': unreferenced formal parameter
+C:\Repositories\velocity-driver\main.cpp(46,51): warning C4100: 'driver_name': unreferenced formal parameter
+C:\Repositories\velocity-driver\main.cpp(46,22): warning C4100: 'base': unreferenced formal parameter
+C:\Repositories\velocity-driver\utils.h(140): warning C4715: 'utils::memory::copy_readonly': not all control paths return a value
+  velocity-driver.vcxproj -> C:\Repositories\velocity-driver\x64\Release\velocity-driver.sys
+  Driver is 'Universal'.
